@@ -1,0 +1,7 @@
+tuple = ('red','green','yellow','blue','black','white','pink','orange','red','blue')
+index_duong = int(input("Nhap so tu 0 den 9: "))
+index_am = int(input("Nhap so tu -1 den -9: "))
+s_find = input("Nhap chuoi can tim: ")
+print("tuple[",index_duong,"] = ",tuple[index_duong])
+print("tuple[",index_am,"] = ",tuple[index_am])
+print(s_find,"xuat hien trong tuple",tuple.count(s_find),"lan")
